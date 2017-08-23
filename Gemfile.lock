@@ -3,9 +3,9 @@ GEM
   specs:
     addressable (2.5.1)
       public_suffix (~> 2.0, >= 2.0.2)
-    faraday (0.12.2)
+    faraday (0.13.1)
       multipart-post (>= 1.2, < 3)
-    google-protobuf (3.3.0)
+    google-protobuf (3.4.0.2)
     googleauth (0.5.3)
       faraday (~> 0.12)
       jwt (~> 1.4)
@@ -14,10 +14,10 @@ GEM
       multi_json (~> 1.11)
       os (~> 0.9)
       signet (~> 0.7)
-    grpc (1.4.1)
+    grpc (1.4.5)
       google-protobuf (~> 3.1)
       googleauth (~> 0.5.1)
-    grpc-tools (1.4.1)
+    grpc-tools (1.4.5)
     jwt (1.5.6)
     little-plugger (1.1.4)
     logging (2.2.2)
@@ -38,8 +38,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  grpc (= 1.4.1)
-  grpc-tools (= 1.4.1)
+  grpc (= 1.4.5)
+  grpc-tools (= 1.4.5)
 
 BUNDLED WITH
    1.15.3
