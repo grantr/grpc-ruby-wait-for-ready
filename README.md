@@ -1,3 +1,12 @@
+## Setup
+
+```
+bundle install
+ruby wait_for_ready.rb
+```
+
+## Sample output
+
 ```
 connectivity_state: IDLE
 request...
